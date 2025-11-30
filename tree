@@ -1,0 +1,19 @@
+user-management-pro/
+├── index.html
+├── data.json
+├── styles.css
+├── README.md
+├── schema.txt
+└── src/
+    ├── main.js
+    ├── models/
+    │   ├── User.js
+    │   └── UserManager.js
+    ├── services/
+    │   ├── api.js
+    │   └── storage.js
+    ├── ui/
+    │   ├── UIManager.js
+    │   └── Toast.js
+    └── utils/
+        └── errors.js

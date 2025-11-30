@@ -1,0 +1,36 @@
+Structure du dossier pour le volume Windows 10
+Le num�ro de s�rie du volume est 7A86-9ECC
+C:.
+|   cd
+|   data.json
+|   index.html
+|   schema.txt
+|   styles.css
+|   tree
+|   
+\---src
+    |   main.js
+    |   
+    +---models
+    |       User.js
+    |       UserManager.js
+    |       
+    +---services
+    |       api.js
+    |       storage.js
+    |       
+    +---ui
+    |       Toast.js
+    |       UIManager.js
+    |       
+    \---utils
+            errors.js
+            
+User Object Schema:
+
+{
+  "id": integer,        // positive unique ID
+  "name": string,       // min 2 characters
+  "email": string,      // valid email format
+  "age": integer        // 1-120
+}

@@ -1,0 +1,22 @@
+# Pro User Management System
+
+A modular, OOP-based User Management System with full CRUD, localStorage persistence, and responsive UI.
+
+## Features
+
+- Create, Read, Update, Delete Users
+- Validation for name, email, and age
+- Toast notifications for feedback
+- Data persisted in localStorage
+- Modular ES6 architecture
+
+## How to Run
+
+1. Clone this repo
+2. Serve via a local server (VS Code Live Server or `npx serve`)
+3. Open `index.html` in a browser
+4. Add/Edit/Delete users and see real-time updates
+
+## Screenshot
+
+![Screenshot](screenshot.png)
